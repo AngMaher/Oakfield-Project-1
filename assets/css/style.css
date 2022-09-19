@@ -10,8 +10,9 @@ body {
     font-family: "raleway", sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Sora", sans-serif;
+    color: #26312c;
 }
 
 /*header, nav styling*/
@@ -50,6 +51,7 @@ header {
     padding: 0;
     margin: 0;
     border: 2px solid #26312c;
+    border-width: 3px;
     border-radius: 50%;
 }
 /* text box on hero image*/
@@ -101,14 +103,58 @@ header {
 
 #about-farm {
     height: 500px;
+    text-align: center;
+    font-size: 200%;
 }
 
 #left-about-farm {
-    width: 33%;
-    padding-top: 50px;
+    width: 30%;
+    padding-top: 15px;
     float: left;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px #26312c;
+    margin-left: 15px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-size: 60%;
+    line-height: 30px;
 }
+
+#right-about-farm {
+    width: 30%;
+    padding-top: 15px;
+    float: right;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px #26312c;
+    margin-right: 15px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-size: 60%;
+    line-height: 30px;
+}
+
+#centre-about-farm {
+    width: 30%;
+    padding-top: 15px;
+    float: right;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px #26312c;
+    margin-top: 30px;
+    margin-right: 70px;
+
+    text-align: center;
+    font-size: 60%;
+    line-height: 30px;
+}
+
 .about-images {
     width: 90%;
+    height: 300px;
     margin: 30px;
+    border-radius: 5%;
 }
