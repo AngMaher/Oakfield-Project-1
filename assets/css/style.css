@@ -102,11 +102,15 @@ header {
 /* About Farm section */
 
 #about-farm {
-    height: 500px;
+    height: 700px;
     text-align: center;
-    font-size: 200%;
+    background-color: #f9f5f3;
 }
-
+#about-farm h2 {
+    margin: 0 20px;
+    color:#26312c;
+    font-size: 250%;
+}
 #left-about-farm {
     width: 30%;
     padding-top: 15px;
@@ -157,4 +161,9 @@ header {
     height: 300px;
     margin: 30px;
     border-radius: 5%;
+}
+
+footer{
+    height: 150px;
+    background-color: #81a094;
 }
