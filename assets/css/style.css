@@ -102,7 +102,7 @@ header {
 /* About Farm section */
 
 #about-farm {
-    height: 700px;
+    height: 800px;
     text-align: center;
     background-color: #f9f5f3;
 }
@@ -110,6 +110,13 @@ header {
     margin: 0 20px;
     color:#26312c;
     font-size: 250%;
+    padding-top: 30px;
+}
+#about-farm p{
+    font-size: 200%;
+    margin: 10px;
+    text-align: left;
+    line-height: 30px;
 }
 #left-about-farm {
     width: 30%;
@@ -117,13 +124,12 @@ header {
     float: left;
     background-color: #81a094;
     border-radius: 5%;
-    box-shadow: 10px 10px #26312c;
+    box-shadow: 10px 10px 8px #26312c;
     margin-left: 15px;
     margin-top: 30px;
 
     text-align: center;
     font-size: 60%;
-    line-height: 30px;
 }
 
 #right-about-farm {
@@ -132,13 +138,12 @@ header {
     float: right;
     background-color: #81a094;
     border-radius: 5%;
-    box-shadow: 10px 10px #26312c;
+    box-shadow: 10px 10px 8px #26312c;
     margin-right: 15px;
     margin-top: 30px;
 
     text-align: center;
     font-size: 60%;
-    line-height: 30px;
 }
 
 #centre-about-farm {
@@ -147,13 +152,12 @@ header {
     float: right;
     background-color: #81a094;
     border-radius: 5%;
-    box-shadow: 10px 10px #26312c;
+    box-shadow: 10px 10px 8px #26312c;
     margin-top: 30px;
     margin-right: 70px;
 
     text-align: center;
     font-size: 60%;
-    line-height: 30px;
 }
 
 .about-images {
@@ -166,4 +170,25 @@ header {
 footer{
     height: 150px;
     background-color: #81a094;
+}
+
+#contact-details {
+    float: left;
+    padding: 30px;
+}
+
+#contact-details li{
+    list-style-type: none;
+    color:#26312c;
+}
+
+#social-media-links li{
+    float: right;
+    list-style-type: none;
+    margin-right: 150px;
+    line-height: 150px;
+}
+
+.social-links{
+    color: #26312c;
 }
