@@ -71,9 +71,10 @@ header {
     position: absolute;
 }
 
+/* box on hero image*/
 .over-text > h2 {
     font-size: 200%;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .over-text > h3{
@@ -123,7 +124,7 @@ header {
 }
 #about-farm p{
     font-size: 200%;
-    margin: 10px;
+    margin: 15px;
     text-align: left;
     line-height: 30px;
 }
@@ -206,4 +207,18 @@ footer{
 #social-links a:hover{
         border-bottom: 4px solid rgba(212, 133, 14);
         color:rgba(212, 133, 14);
+}
+
+#shop-outer {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#shop-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/shop.jpg') repeat center center;
+    background-size: cover;
+    background-color: rgba (164, 172, 175, .7);
 }
