@@ -302,9 +302,14 @@ footer{
 }
 
 #order-button a{
-    margin: 30px;
     text-align: center;
     padding: 30px;
-    line-height: 30px;
-    font-size: 150%;
+    font-size: 200%;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+#order-button a:hover{
+    border-bottom: 4px solid rgba(212, 133, 14);
+    color:rgba(212, 133, 14);
 }
