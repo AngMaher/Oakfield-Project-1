@@ -181,6 +181,7 @@ header {
     border-radius: 5%;
 }
 
+/* footer section */
 footer{
     height: 125px;
     background-color: #81a094;
@@ -209,9 +210,7 @@ footer{
         border-bottom: 4px solid rgba(212, 133, 14);
         color:rgba(212, 133, 14);
 }
-
-
-
+/* Farm and shop section*/
 #shop-image{
     height: 600px;
     width: 100%;
@@ -220,11 +219,92 @@ footer{
     background-color: rgba (164, 172, 175, .7);
 }
 
-
 #boxes-image{
     height: 600px;
     width: 100%;
     background: url('../images/greens.webp') repeat center center;
     background-size: cover;
     background-color: rgba (164, 172, 175, .7);
+}
+
+/* box options on boxes.html page */
+#boxes {
+    height: 900px;
+    text-align: center;
+    background-color: #f9f5f3;
+}
+#boxes h2 {
+    margin: 0 20px;
+    color:#26312c;
+    font-size: 250%;
+    padding: 15px 0;
+}
+
+#left-large-box {
+    width: 30%;
+    height: 80%;
+    padding-top: 15px;
+    float: left;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px 8px #26312c;
+    margin-left: 15px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-size: 60%;
+}
+
+#right-small-box {
+    width: 30%;
+    height: 80%;
+    padding-top: 15px;
+    float: right;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px 8px #26312c;
+    margin-right: 15px;
+    margin-top: 30px;
+
+    text-align: center;
+    font-size: 60%;
+}
+
+#centre-medium-box {
+    width: 30%;
+    height: 80%;
+    padding-top: 15px;
+    float: right;
+    background-color: #81a094;
+    border-radius: 5%;
+    box-shadow: 10px 10px 8px #26312c;
+    margin-top: 30px;
+    margin-right: 70px;
+
+    text-align: center;
+    font-size: 60%;
+}
+
+.boxes-images {
+    width: 90%;
+    height: 300px;
+    margin: 30px;
+    border-radius: 5%;
+}
+
+.box-item-list {
+    list-style-type: none;
+    font-size: 180%;
+}
+
+#order-button {
+    margin: 0 auto;
+}
+
+#order-button a{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 150%;
 }
