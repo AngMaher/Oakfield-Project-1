@@ -27,7 +27,36 @@
                 </ul>
             </nav>
     </header>
-    
+    <section id="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+            <h3><strong>Please Fill Out The Form And We Will Contact You</strong></h3>
+            <label for="fname">First Name</label>
+            <input type="text " id="fname" name="fname" placeholder="Your First Name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Your Surname" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Your Email Address" required>
+
+            <p>Which box size are you interested in?</p>
+            <label for="large">Large</label>
+            <input type="radio" value="large" id="large" name="box-size" checked>
+            <label for="medium">Medium</label>
+            <input type="radio" value="medium" id="medium" name="box-size">
+            <label for="small">Small</label>
+            <input type="radio" value="small" id="small" name="box-size">
+
+            <p>How often would you like it delivered?</p>
+            <label for="weekly">Weekly</label>
+            <input type="radio" value="weekly" id="weekly" name="how-often" checked>
+            <label for="biweekly">Bi-weekly</label>
+            <input type="radio" value="biweekly" id="biweekly" name="how-often">
+            <label for="monthly">Monthly</label>
+            <input type="radio" value="monthly" id="monthly" name="how-often">
+            <hr>
+            <button type="submit"><strong>Sign Up</strong></button>
+        </form>
+        </div>
+    </section>
     <footer>
         <div id="contact-details">
             <ul>
@@ -54,7 +83,6 @@
             </ul>
         </div>
     </footer>
-
     <script src="https://kit.fontawesome.com/2b8a10e04d.js" crossorigin="anonymous"></script>
 </body>
 </html>

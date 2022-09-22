@@ -87,7 +87,7 @@ header {
 
 /*Navagation */
 #menu {
-    font-size: 60%;
+    font-size: 40%;
 }
 
 #menu li {
@@ -181,6 +181,8 @@ header {
     border-radius: 5%;
 }
 
+
+
 /* footer section */
 footer{
     height: 125px;
@@ -214,7 +216,7 @@ footer{
 #shop-image{
     height: 600px;
     width: 100%;
-    background: url('../images/shop.jpg') repeat center center;
+    background: url('../images/shop.jpg') no-repeat center center;
     background-size: cover;
     background-color: rgba (164, 172, 175, .7);
 }
@@ -222,7 +224,7 @@ footer{
 #boxes-image{
     height: 600px;
     width: 100%;
-    background: url('../images/greens.webp') repeat center center;
+    background: url('../images/greens.webp') no-repeat center center;
     background-size: cover;
     background-color: rgba (164, 172, 175, .7);
 }
@@ -312,4 +314,28 @@ footer{
 #order-button a:hover{
     border-bottom: 4px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
+}
+
+/*Order Online */
+
+#form-section{
+    height: 800px;
+    background: url('../images/background-form1.jpg') repeat center center;
+    background-size: cover;
+    background-color: rgba (164, 172, 175);
+}
+
+.signup-form{
+    margin: 100px 0 400px 1100px;
+    color: #f9f5f3;
+    background-color: rgba(38, 49, 44, 0.8);
+    max-width: 400px;
+    height: 500px;
+    position: absolute;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.signup-form h3{
+    color:#f9f5f3;
 }
