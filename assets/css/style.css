@@ -305,18 +305,21 @@ footer{
 
 #order-button a{
     text-align: center;
-    padding: 30px;
-    font-size: 200%;
+    padding: 10px;
+    font-size: 250%;
     text-decoration: none;
     line-height: 60px;
+    border: 2px solid  #26312c;
+    margin-top: 20px;
+    border-radius: 10%;
 }
 
 #order-button a:hover{
-    border-bottom: 4px solid rgba(212, 133, 14);
+    border: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
 }
 
-/*Order Online */
+/*Order Online form section*/
 
 #form-section{
     height: 800px;
