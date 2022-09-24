@@ -242,9 +242,19 @@ footer{
     padding: 15px;
 }
 
+#opening-times h3{
+    font-size: 200%;
+    line-height: 100px;
+}
+
+#opening-times p{
+    border-bottom: #f9f5f3;
+    
+}
+
 #opening-times h1{
     font-size: 300%;
-    float: left;
+    text-align: center;
 }
 
 
@@ -261,6 +271,13 @@ footer{
     padding: 15px 0;
 }
 
+#boxes-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/greens.webp') repeat center center;
+    background-size: cover;
+    background-color: rgba (164, 172, 175, .7);
+}
 #left-large-box {
     width: 30%;
     height: 80%;
