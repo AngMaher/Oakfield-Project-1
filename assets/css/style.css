@@ -22,7 +22,7 @@ header {
     color: #26312c;
     background-color: #81a094;
     height: 160px;
-    font-size: 180%;
+    font-size: 160%;
 }
 
 #name {
@@ -187,6 +187,8 @@ header {
 footer{
     height: 125px;
     background-color: #81a094;
+    float: left;
+    width:100%;
 }
 
 #contact-details {
@@ -222,16 +224,6 @@ footer{
     background-color: rgba (164, 172, 175, .7);
 }
 
-#shop-gallery{
-    width: 100%;
-}
-
-.gallery-image{
-    height: 500px;
-    width: 30%;
-    margin: 15px;
-}
-
 #opening-times {
     margin: 30px auto;
     height: 600px;
@@ -255,6 +247,15 @@ footer{
 #opening-times h1{
     font-size: 300%;
     text-align: center;
+}
+
+#opening-times i{
+    margin-right: 25px;
+}
+
+#opening-times h1{
+    border-bottom: 3px solid #f9f5f3;
+    color:#f9f5f3;
 }
 
 
@@ -356,16 +357,21 @@ footer{
 }
 
 /*Order Online form section*/
-
-#form-section{
+#form-outter{
     height: 800px;
-    background: url('../images/background-form1.jpg') repeat center center;
+    position: relative;
+    width: 100%
+}
+#form-section{
+    background: url('../images/background-form1.jpg') no-repeat center center;
     background-size: cover;
     background-color: rgba (164, 172, 175);
+
+    height: 800px;
+    width: 100%;
 }
 
 .signup-form{
-    margin: 100px 0 400px 1100px;
     color: #f9f5f3;
     background-color: rgba(38, 49, 44, 0.8);
     max-width: 400px;
@@ -373,6 +379,10 @@ footer{
     position: absolute;
     padding: 50px;
     border-radius: 5%;
+
+    top: 100px;
+    float: right;
+    margin-left: 1100px;
 }
 
 .signup-form h3{
@@ -415,10 +425,69 @@ footer{
     color:#26312c;
 }
 
-#shop-info h2 {
-    margin: 0 20px;
-    color:#26312c;
-    font-size: 250%;
-    padding: 15px 0;
-    text-align: center;
+/*for larger to medium size from 1200px wide and down*/
+
+@media screen and (max-width: 1200px) {
+    #about-farm, #boxes{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #about-farm, #boxes{
+        padding: 30px 0;
+        margin: 0;
+        float: left;
+    }
+    
+    #right-about-farm, #left-about-farm, #left-large-box, #right-small-box{
+        width: 100%;
+        padding: 0;
+        float:left;
+        font-size: 100%;
+    }
+
+    #centre-about-farm, #centre-medium-box {
+        clear: both;
+        width:100%;
+        padding: 0;
+        float: left;
+        font-size: 100%;
+    }
+    
+    #menu{
+        clear:left;
+        float:right;
+        margin-left: 100px;
+        margin-bottom: 0px;
+        line-height: 5px;
+        vertical-align: top;
+    }
+
+    #name{
+        vertical-align: top;
+
+    }
+
+    header{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #name{
+        font-size: 120%;
+    }
+    
+    #menu li{
+        margin-right: 15px;
+    }
+    
+    #social-media-links li{
+        margin-right: 50px;
+    }
+    
+    .sign-up-form {
+        max-width: 350px;
+    }
 }
