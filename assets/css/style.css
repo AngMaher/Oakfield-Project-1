@@ -53,7 +53,7 @@ header {
     width: 100%;
     background: url('../images/background-hero.jpeg') repeat center center;
     background-size: cover;
-    background-color: rgba (164, 172, 175, .7);
+    background-color: #81a094;
 }
 
 /* text box on hero image*/
@@ -88,7 +88,7 @@ header {
 
 /*Navagation */
 #menu {
-    font-size: 40%;
+    font-size: 80%;
 }
 
 #menu li {
@@ -105,6 +105,10 @@ header {
 #menu a:hover{
     border-bottom: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
+}
+
+.active {
+    border-bottom: 2px solid #26312c;
 }
 
 #menu, #name{
@@ -184,7 +188,7 @@ header {
 
 /* footer section */
 footer{
-    height: 125px;
+    height: 130px;
     background-color: #81a094;
     float: left;
     width:100%;
@@ -192,7 +196,7 @@ footer{
 
 #contact-details {
     float: left;
-    padding: 30px;
+    padding: 25px;
 }
 
 #contact-details li{
@@ -204,14 +208,14 @@ footer{
     float: right;
     list-style-type: none;
     margin-right: 150px;
-    line-height: 150px;
+    line-height: 125px;
     color:#26312c;
     font-size: 150%;
 }
 
 #social-links a:hover{
-        border-bottom: 2px solid rgba(212, 133, 14);
-        color:rgba(212, 133, 14);
+    border-bottom: 2px solid rgba(212, 133, 14);
+    color:rgba(212, 133, 14);
 }
 
 /* Farm and shop section*/
@@ -220,11 +224,11 @@ footer{
     width: 100%;
     background: url('../images/shop.jpg') no-repeat center center;
     background-size: cover;
-    background-color: rgba (164, 172, 175, .7);
+    background-color: #81a094;
 }
 
 #opening-times {
-    margin: 50px 70px;
+    margin: 30px 175px;
     height: 600px;
     width: 500px;
     float: left;
@@ -234,7 +238,8 @@ footer{
     padding: 15px;
 }
 iframe {
-    margin: 50px;
+    margin: 30px 175px;
+    float: right;
 }
 
 #opening-times h3{
@@ -247,7 +252,7 @@ iframe {
     
 }
 
-#opening-times h1{
+#opening-times h2{
     font-size: 300%;
     text-align: center;
 }
@@ -256,7 +261,7 @@ iframe {
     margin-right: 25px;
 }
 
-#opening-times h1{
+#opening-times h2{
     border-bottom: 3px solid #f9f5f3;
     color:#f9f5f3;
 }
@@ -280,7 +285,7 @@ iframe {
     width: 100%;
     background: url('../images/greens.webp') repeat center center;
     background-size: cover;
-    background-color: rgba (164, 172, 175, .7);
+    background-color: #f9f5f3;
 }
 #left-large-box {
     width: 30%;
@@ -370,7 +375,7 @@ iframe {
     width: 100%;
     background: url('../images/background-form1.jpg') no-repeat center center;
     background-size: cover;
-    background-color: rgba (164, 172, 175);
+    background-color: #81a094;
 }
 
 .signup-form{
@@ -476,7 +481,7 @@ iframe {
         width: 100%;
         padding: 0;
         float: left;
-        font-size: 100%;
+        font-size: 70%;
     }
 
     #centre-about-farm, #centre-medium-box {
@@ -484,7 +489,7 @@ iframe {
         width:100%;
         padding: 0;
         margin: 0 auto;
-        font-size: 100%;
+        font-size: 70%;
         margin: 30px 0;
     }
     
@@ -522,7 +527,18 @@ iframe {
     #social-media-links li{
         margin-right: 50px;
     }
-    
+    #right-about-farm img, #left-about-farm img, #left-large-box img, #right-small-box img{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    #centre-about-farm img, #centre-medium-box img{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .over-text{
+        width: 50%;
+    }
     .sign-up-form {
         max-width: 350px;
     }
@@ -530,4 +546,5 @@ iframe {
     .signup-form{
         right: 50px;
     }
+
 }
