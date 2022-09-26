@@ -68,7 +68,7 @@ header {
     
     bottom: 200px;
     float: left;
-    margin-left: 150px;
+    left: 200px;
 
     position: absolute;
 }
@@ -383,8 +383,8 @@ iframe {
     border-radius: 5%;
 
     top: 100px;
-    float: right;
-    margin-left: 1100px;
+    right: 200px;
+    bottom: 150px;
 }
 
 .signup-form h3{
@@ -508,9 +508,6 @@ iframe {
     iframe{
         width: 80%;
     }
-    .signup-form{
-        margin-left: 500px;
-    }
 }
 
 @media screen and (max-width: 950px) {
@@ -531,6 +528,6 @@ iframe {
     }
 
     .signup-form{
-        margin-left: 100px;
+        right: 50px;
     }
 }
