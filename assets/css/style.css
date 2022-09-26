@@ -162,14 +162,14 @@ header {
 #centre-about-farm {
     width: 30%;
     height: 80%;
+    margin: 0 auto;
     padding-top: 15px;
     float: right;
     background-color: #81a094;
     border-radius: 5%;
     box-shadow: 10px 10px 8px #26312c;
     margin-top: 30px;
-    margin-right: 70px;
-
+    margin-right: 73px;
     text-align: center;
     font-size: 60%;
 }
@@ -180,8 +180,6 @@ header {
     margin: 30px;
     border-radius: 5%;
 }
-
-
 
 /* footer section */
 footer{
@@ -225,13 +223,17 @@ footer{
 }
 
 #opening-times {
-    margin: 30px auto;
+    margin: 50px 70px;
     height: 600px;
     width: 500px;
+    float: left;
     background-color: #81a094;
     text-align: center;
     border-radius: 5%;
     padding: 15px;
+}
+iframe {
+    margin: 50px;
 }
 
 #opening-times h3{
@@ -425,6 +427,37 @@ footer{
     color:#26312c;
 }
 
+/*form submit page, confirmation of submit*/
+
+#form-confirm{
+    background: url('../images/background-form1.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: rgba (164, 172, 175);
+
+    height: 800px;
+    width: 100%;
+}
+
+#confirm-box{
+    color: #f9f5f3;
+    background-color: rgba(38, 49, 44, 0.8);
+    max-width: 250px;
+    height: 250px;
+    position: absolute;
+    padding: 50px;
+    border-radius: 5%;
+
+    top: 250px;
+    float: right;
+    margin-left: 900px;
+}
+
+#confirm-box h2, #confirm-box h3{
+    text-align: center;
+    color:#f9f5f3;
+    padding: 30px;
+}
+
 /*for larger to medium size from 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
@@ -432,18 +465,13 @@ footer{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    }
-
-    #about-farm, #boxes{
         padding: 30px 0;
-        margin: 0;
-        float: left;
     }
     
     #right-about-farm, #left-about-farm, #left-large-box, #right-small-box{
         width: 100%;
         padding: 0;
-        float:left;
+        float: left;
         font-size: 100%;
     }
 
@@ -451,8 +479,9 @@ footer{
         clear: both;
         width:100%;
         padding: 0;
-        float: left;
+        margin: 0 auto;
         font-size: 100%;
+        margin: 30px 0;
     }
     
     #menu{
@@ -471,6 +500,9 @@ footer{
 
     header{
         height: 180px;
+    }
+    iframe{
+        width: 80%;
     }
 }
 

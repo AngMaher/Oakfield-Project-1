@@ -6,6 +6,8 @@ This project idea is based on an urban farm that sells their produce in a small 
 
 wireframe Images:<br>
 
+
 credits: I used Balsamiq to create the wireframes, google.fonts, font awsome for icon. <br>
-Used loving running project for inspiration and examples, and applied to my own project using my own style.<br>
+Used loving running project and the coffee shop program for inspiration and examples, and applied to my own project using my own style.<br>
 used canva.com to create a logo for the wesite.
+I used pexels for photographs and a local farm in my area for pictures of the shop and about the farm section.
