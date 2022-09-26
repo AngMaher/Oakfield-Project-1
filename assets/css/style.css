@@ -31,6 +31,17 @@ header {
     vertical-align: middle;
 }
 
+#logo {
+    height: 150px;
+    width: 160px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #26312c;
+    border-width: 3px;
+    border-radius: 50%;
+}
+
 .hero-outer {
     height: 600px;
     width: 100%;
@@ -45,16 +56,6 @@ header {
     background-color: rgba (164, 172, 175, .7);
 }
 
-#logo {
-    height: 150px;
-    width: 160px;
-    float: left;
-    padding: 0;
-    margin: 0;
-    border: 2px solid #26312c;
-    border-width: 3px;
-    border-radius: 50%;
-}
 /* text box on hero image*/
 .over-text {
     background-color: rgba(212, 133, 14, 0.6);
@@ -359,18 +360,17 @@ iframe {
 }
 
 /*Order Online form section*/
-#form-outter{
+.form-outter{
     height: 800px;
+    width: 100%;
     position: relative;
-    width: 100%
 }
-#form-section{
+#form-background{
+    height: 800px;
+    width: 100%;
     background: url('../images/background-form1.jpg') no-repeat center center;
     background-size: cover;
     background-color: rgba (164, 172, 175);
-
-    height: 800px;
-    width: 100%;
 }
 
 .signup-form{
@@ -378,7 +378,7 @@ iframe {
     background-color: rgba(38, 49, 44, 0.8);
     max-width: 400px;
     height: 500px;
-    position: absolute;
+    position:absolute;
     padding: 50px;
     border-radius: 5%;
 
@@ -459,7 +459,11 @@ iframe {
 }
 
 /*for larger to medium size from 1200px wide and down*/
-
+@media screen and (max-width: 1500px) {
+    .signup-form{
+        margin-left: 800px;
+    }
+}
 @media screen and (max-width: 1200px) {
     #about-farm, #boxes{
         width: 65%;
@@ -504,6 +508,9 @@ iframe {
     iframe{
         width: 80%;
     }
+    .signup-form{
+        margin-left: 500px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -521,5 +528,9 @@ iframe {
     
     .sign-up-form {
         max-width: 350px;
+    }
+
+    .signup-form{
+        margin-left: 100px;
     }
 }
