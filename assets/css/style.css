@@ -347,6 +347,8 @@ iframe {
 .box-item-list {
     list-style-type: none;
     font-size: 180%;
+    margin-bottom: 25px;
+    font-weight: 900;
 }
 
 .order-button {
@@ -355,18 +357,24 @@ iframe {
 
 .order-button > a{
     text-align: center;
+    color:#26312c;
     padding: 10px;
-    font-size: 250%;
+    font-size: 200%;
     text-decoration: none;
     line-height: 60px;
     border: 2px solid  #26312c;
     margin-top: 20px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .order-button > a:hover{
     border: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
+}
+
+.over-text a:hover{
+    border: 2px solid #f9f5f3;
+    color:#f9f5f3;
 }
 
 /*Order Online form section*/
@@ -388,12 +396,12 @@ iframe {
     background-color: rgba(38, 49, 44, 0.8);
     max-width: 400px;
     height: 500px;
-    position:absolute;
+    position: absolute;
     padding: 50px;
     border-radius: 5%;
 
     top: 100px;
-    right: 200px;
+    right: 300px;
     bottom: 150px;
 }
 
@@ -446,6 +454,10 @@ iframe {
 
     height: 800px;
     width: 100%;
+}
+
+#form-confirm h1{
+    float:right;
 }
 
 #confirm-box{
@@ -572,7 +584,6 @@ iframe {
         margin: 0 auto;
         margin-top: 15px;
     }
-
     .over-text{
         width: 40%;
         left: 50px;
@@ -665,6 +676,4 @@ iframe {
         float: left;
         width:100%;
     }
-
-
 }

@@ -1,11 +1,17 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+image of comp
+
 # Oakfield Eco Farm
 
-This project idea is based on an urban farm that sells their produce in a small on site farm shop. They also offer delivery to the local area of boxes of premade produce.
+This website is inspired by a local Eco Farm in my area that does not have their own website. I love what they do and I thought it 
+would be fitting to base my idea around them.
+
+The site shows the
+
 <br>
 
-# Tech Used
+# Technology used
 
 This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
@@ -18,6 +24,12 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 
 # Features
+
+## colors 
+
+ I used [Coolors](https://coolors.co) to help me pick the colours I was looking for and to get the values for them. I wanted to keep it earthy and based the colour system around the colour of a carrot.  I used a light green in the header and footer and any boxes. The headings and text is a very dark green. The the transparent boxes and hover activity is an orange colour. Behind the boxes I have used an off white colour, as I felt white was not warm enough for the site.
+
+#81a094, #f9f5f3, #26312c,
 
 # Testing
 
