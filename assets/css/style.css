@@ -11,7 +11,7 @@ body {
     background-color: #f9f5f3;
 }
 
-h1, h2, h3 {
+h1, h2, h3, i {
     font-family: "Sora", sans-serif;
     color: #26312c;
 }
@@ -201,7 +201,7 @@ footer{
 
 #contact-details li{
     list-style-type: none;
-    color: #26312c;
+    color: #f9f5f3;
 }
 
 #social-media-links li{
@@ -344,11 +344,11 @@ iframe {
     font-size: 180%;
 }
 
-#order-button {
+.order-button {
     margin: 0 auto;
 }
 
-#order-button a{
+.order-button > a{
     text-align: center;
     padding: 10px;
     font-size: 250%;
@@ -359,7 +359,7 @@ iframe {
     border-radius: 10%;
 }
 
-#order-button a:hover{
+.order-button > a:hover{
     border: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
 }
@@ -437,7 +437,7 @@ iframe {
 #form-confirm{
     background: url('../images/background-form1.jpg') no-repeat center center;
     background-size: cover;
-    background-color: rgba (164, 172, 175);
+    background-color: #81a094;
 
     height: 800px;
     width: 100%;
@@ -512,6 +512,7 @@ iframe {
     }
     iframe{
         width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -522,6 +523,18 @@ iframe {
     
     #menu li{
         margin-right: 15px;
+    }
+    
+
+    #logo {
+        height: 75px;
+        width: 80px;
+        float: left;
+        padding: 0;
+        margin: 0;
+        border: 2px solid #26312c;
+        border-width: 3px;
+        border-radius: 50%;
     }
     
     #social-media-links li{
@@ -537,8 +550,22 @@ iframe {
     }
 
     .over-text{
-        width: 50%;
+        width: 40%;
+        left: 50px;
+        height: 50%;
     }
+    .over-text > h2 {
+        font-size: 160%;
+        padding-bottom: 15px;
+    }
+    
+    .over-text > h3{
+        text-align: center;
+        line-height: 30px;
+        font-weight: 900;
+        font-size: 130%;
+    }
+    
     .sign-up-form {
         max-width: 350px;
     }
@@ -546,5 +573,23 @@ iframe {
     .signup-form{
         right: 50px;
     }
-
+}
+@media screen and (max-width: 600px){
+    .over-text{
+        width: 50%;
+        left: 50px;
+        height: 50%;
+    }
+    .over-text > h2 {
+        font-size: 130%;
+        padding-bottom: 15px;
+    }
+    
+    .over-text > h3{
+        text-align: center;
+        line-height: 30px;
+        font-weight: 900;
+        font-size: 120%;
+    }
+    
 }
