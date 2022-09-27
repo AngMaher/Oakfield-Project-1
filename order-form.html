@@ -32,7 +32,7 @@
     <section class="form-outter">
         <div id="form-background"></div>
         <form action="form-submit.html" class="signup-form">
-            <h3><strong>Please Fill Out The Form And We Will Contact You</strong></h3>
+            <h3>Please Fill Out The Form And We Will Contact You</h3>
             <label for="fname"><strong>First Name</strong></label>
             <input type="text" id="fname" name="fname" placeholder="Your First Name" required class="input-field">
             <label for="lname"><strong>Surname</strong></label>
@@ -40,21 +40,22 @@
             <label for="email"><strong>Email Address</strong></label>
             <input type="email" name="email" id="email" placeholder="Your Email Address" required class="input-field">
 
-            <p><strong>Which box size are you interested in?</strong></p>
-            <label for="large">  Large  </label>
-            <input type="radio" value="large" id="large" name="box-size" checked>
-            <label for="medium">  Medium  </label>
-            <input type="radio" value="medium" id="medium" name="box-size">
-            <label for="small">  Small  </label>
-            <input type="radio" value="small" id="small" name="box-size">
-
-            <p><strong>How often would you like it delivered?</strong></p>
-            <label for="weekly">  Weekly  </label>
-            <input type="radio" value="weekly" id="weekly" name="how-often" checked>
-            <label for="biweekly">  Bi-weekly  </label>
-            <input type="radio" value="biweekly" id="biweekly" name="how-often">
-            <label for="monthly">  Monthly  </label>
-            <input type="radio" value="monthly" id="monthly" name="how-often">
+            <div class="radio-buttons">
+                <h4>Which box size are you interested in?</h4>
+                <label for="large">  Large  </label>
+                <input type="radio" value="large" id="large" name="box-size" checked>
+                <label for="medium">  Medium  </label>
+                <input type="radio" value="medium" id="medium" name="box-size">
+                <label for="small">  Small  </label>
+                <input type="radio" value="small" id="small" name="box-size">
+                <h4>How often for delivery?</h4>
+                <label for="weekly">  Weekly  </label>
+                <input type="radio" value="weekly" id="weekly" name="how-often" checked>
+                <label for="biweekly">  Bi-weekly  </label>
+                <input type="radio" value="biweekly" id="biweekly" name="how-often">
+                <label for="monthly">  Monthly  </label>
+                <input type="radio" value="monthly" id="monthly" name="how-often">
+            </div>
             <hr>
             <button type="submit" id="submit-button"><strong>Sign Up</strong></button>
         </form>

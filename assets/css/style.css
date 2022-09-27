@@ -220,6 +220,11 @@ footer{
 }
 
 /* Farm and shop section*/
+#shop-info{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
 #shop-image{
     height: 600px;
     width: 100%;
@@ -237,10 +242,6 @@ footer{
     text-align: center;
     border-radius: 5%;
     padding: 15px;
-}
-iframe {
-    margin: 30px 175px;
-    float: right;
 }
 
 #opening-times h3{
@@ -266,7 +267,10 @@ iframe {
     border-bottom: 3px solid #f9f5f3;
     color:#f9f5f3;
 }
-
+iframe {
+    margin: 30px 175px;
+    float: right;
+}
 
 /* box options on boxes.html page */
 #boxes {
@@ -396,7 +400,7 @@ iframe {
 .signup-form h3{
     color:#f9f5f3;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .input-field{
@@ -408,9 +412,9 @@ iframe {
     border: 1px solid #f9f5f3;
     border-radius: 3px;
 }
-
-#form-section p{
-    line-height: 40px;
+.radio-buttons {
+    letter-spacing: 2px;
+    line-height: 30px;
 }
 
 #submit-button{
@@ -505,11 +509,19 @@ iframe {
 
     #name{
         vertical-align: top;
-
     }
 
     header{
         height: 180px;
+    }
+    #shop-info{
+        height: 1200px;
+        width: 100%;
+    }
+    #opening-times {
+        margin: 0 auto;
+        height: 600px;
+        width: 500px;
     }
     iframe{
         width: 80%;
@@ -528,7 +540,6 @@ iframe {
         margin-right: 15px;
     }
     
-
     #logo {
         height: 75px;
         width: 80px;
@@ -538,6 +549,16 @@ iframe {
         border: 2px solid #26312c;
         border-width: 3px;
         border-radius: 50%;
+    }
+
+    #opening-times {
+        margin: 0 auto;
+        height: 900px;
+        width: 100%;
+  
+    }
+    iframe{
+        margin: 0 auto;
     }
     
     #social-media-links li{
@@ -626,7 +647,7 @@ iframe {
         font-size: 50%;
         float: left;
     }
-    #about-farm h2 {;
+    #about-farm h2 {
         font-size: 150%;
         padding-top: 30px;
     }
@@ -645,5 +666,5 @@ iframe {
         width:100%;
     }
 
-    
+
 }
