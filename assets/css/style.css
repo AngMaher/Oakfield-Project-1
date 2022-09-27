@@ -196,12 +196,13 @@ footer{
 
 #contact-details {
     float: left;
-    padding: 25px;
+    padding: 25px 0 10px 25px;
+    color: #f9f5f3;
+    letter-spacing: 2px;
 }
 
 #contact-details li{
     list-style-type: none;
-    color: #f9f5f3;
 }
 
 #social-media-links li{
@@ -520,7 +521,9 @@ iframe {
     #name{
         font-size: 120%;
     }
-    
+    #menu, #name{
+        line-height: 60px;
+    }
     #menu li{
         margin-right: 15px;
     }
@@ -591,5 +594,56 @@ iframe {
         font-weight: 900;
         font-size: 120%;
     }
+
+    #menu, #name{
+        line-height: 30px;
+    }
+
+    /*contact details on footer*/
+    #contact-details {
+        float: left;
+        padding: 25px 0 10px 25px;
+        color: #f9f5f3;
+        letter-spacing: 2px;
+        font-size: 80%;
+    }
+
+    /* links on footer*/
+    #social-media-links li{
+        float:right;
+        list-style-type: none;
+        margin-right: 20px;
+        line-height: 125px;
+        color:#26312c;
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 300px) {
+    #name{
+        font-size: 100%;
+    }
+    #menu{
+        font-size: 50%;
+        float: left;
+    }
+    #about-farm h2 {;
+        font-size: 150%;
+        padding-top: 30px;
+    }
+    #about-farm p{
+        font-size: 150%;
+    }
+    .box-item-list {
+        list-style-type: none;
+        font-size: 150%;
+    }
+
+    footer{
+        height: 200px;
+        background-color: #81a094;
+        float: left;
+        width:100%;
+    }
+
     
 }
