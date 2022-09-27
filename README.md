@@ -38,8 +38,8 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 
 # Credits
-- I used Balsamiq to create the wireframes, google.fonts, font awsome for icon.
-<br>
+
+* I used Balsamiq to create the wireframes, google.fonts, font awsome for icon.
 * Used loving running project and the coffee shop program for inspiration and examples, and applied to my own project using my own style.<br>
 * I used canva.com to create a logo for the wesite.
 * I used pexels for photographs and a local farm in my area for pictures of the shop and about the farm section.<br>
