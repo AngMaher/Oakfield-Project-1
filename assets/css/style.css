@@ -5,17 +5,14 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: "raleway", sans-serif;
     background-color: #f9f5f3;
 }
-
 h1, h2, h3, i {
     font-family: "Sora", sans-serif;
     color: #26312c;
 }
-
 /*header, nav styling*/
 header {
     font-family: "sora", sans-serif;
@@ -24,13 +21,11 @@ header {
     height: 160px;
     font-size: 160%;
 }
-
 #name {
     float: left;
     margin-left: 30px;
     vertical-align: middle;
 }
-
 #logo {
     height: 150px;
     width: 160px;
@@ -41,13 +36,11 @@ header {
     border-width: 3px;
     border-radius: 50%;
 }
-
 .hero-outer {
     height: 600px;
     width: 100%;
     position: relative;
 }
-
 #hero-image{
     height: 600px;
     width: 100%;
@@ -55,7 +48,6 @@ header {
     background-size: cover;
     background-color: #81a094;
 }
-
 /* text box on hero image*/
 .over-text {
     background-color: rgba(212, 133, 14, 0.6);
@@ -65,58 +57,46 @@ header {
     padding: 30px;
     color: rgba(255, 255, 255);
     border-radius: 5%;
-    
     bottom: 200px;
     float: left;
     left: 200px;
-
     position: absolute;
 }
-
 /* heading in box on hero image*/
 .over-text > h2 {
     font-size: 200%;
     padding-bottom: 15px;
 }
-
 .over-text > h3{
     text-align: center;
     line-height: 30px;
     font-weight: 900;
     font-size: 150%;
 }
-
 /*Navagation */
 #menu {
     font-size: 80%;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;   
 }
-
 #menu a{
     color: inherit;
     text-decoration: none;
 }
-
 #menu a:hover{
     border-bottom: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
 }
-
 .active {
     border-bottom: 2px solid #26312c;
 }
-
 #menu, #name{
     line-height: 150px;
 }
-
 /* About Farm section */
-
 #about-farm {
     height: 800px;
     text-align: center;
@@ -144,11 +124,9 @@ header {
     box-shadow: 10px 10px 8px #26312c;
     margin-left: 15px;
     margin-top: 30px;
-
     text-align: center;
     font-size: 60%;
 }
-
 #right-about-farm {
     width: 30%;
     height: 80%;
@@ -159,11 +137,9 @@ header {
     box-shadow: 10px 10px 8px #26312c;
     margin-right: 15px;
     margin-top: 30px;
-
     text-align: center;
     font-size: 60%;
 }
-
 #centre-about-farm {
     width: 30%;
     height: 80%;
@@ -178,14 +154,12 @@ header {
     text-align: center;
     font-size: 60%;
 }
-
 .about-images {
     width: 90%;
     height: 300px;
     margin: 30px;
     border-radius: 5%;
 }
-
 /* footer section */
 footer{
     height: 130px;
@@ -193,18 +167,15 @@ footer{
     float: left;
     width:100%;
 }
-
 #contact-details {
     float: left;
     padding: 25px 0 10px 25px;
     color: #f9f5f3;
     letter-spacing: 2px;
 }
-
 #contact-details li{
     list-style-type: none;
 }
-
 #social-media-links li{
     float: right;
     list-style-type: none;
@@ -213,12 +184,10 @@ footer{
     color:#26312c;
     font-size: 150%;
 }
-
 #social-links a:hover{
     border-bottom: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
 }
-
 /* Farm and shop section*/
 #shop-info{
     height: 600px;
@@ -232,8 +201,7 @@ footer{
     background-size: cover;
     background-color: #81a094;
 }
-
-#opening-times {
+#opening-times{
     margin: 30px 175px;
     height: 600px;
     width: 500px;
@@ -241,28 +209,23 @@ footer{
     background-color: #81a094;
     text-align: center;
     border-radius: 5%;
-    padding: 15px;
+    padding : 15px;
 }
-
 #opening-times h3{
     font-size: 200%;
     line-height: 100px;
 }
-
 #opening-times p{
     border-bottom: #f9f5f3;
     
 }
-
 #opening-times h2{
     font-size: 300%;
     text-align: center;
 }
-
 #opening-times i{
     margin-right: 25px;
 }
-
 #opening-times h2{
     border-bottom: 3px solid #f9f5f3;
     color:#f9f5f3;
@@ -271,7 +234,6 @@ iframe {
     margin: 30px 175px;
     float: right;
 }
-
 /* box options on boxes.html page */
 #boxes {
     height: 900px;
@@ -284,7 +246,6 @@ iframe {
     font-size: 250%;
     padding: 15px 0;
 }
-
 #boxes-image{
     height: 600px;
     width: 100%;
@@ -306,7 +267,6 @@ iframe {
     text-align: center;
     font-size: 60%;
 }
-
 #right-small-box {
     width: 30%;
     height: 80%;
@@ -321,7 +281,6 @@ iframe {
     text-align: center;
     font-size: 60%;
 }
-
 #centre-medium-box {
     width: 30%;
     height: 80%;
@@ -332,29 +291,24 @@ iframe {
     box-shadow: 10px 10px 8px #26312c;
     margin-top: 30px;
     margin-right: 70px;
-
     text-align: center;
     font-size: 60%;
 }
-
 .boxes-images {
     width: 90%;
     height: 300px;
     margin: 30px;
     border-radius: 5%;
 }
-
 .box-item-list {
     list-style-type: none;
     font-size: 180%;
     margin-bottom: 25px;
     font-weight: 900;
 }
-
 .order-button {
     margin: 0 auto;
 }
-
 .order-button > a{
     text-align: center;
     color:#26312c;
@@ -366,17 +320,14 @@ iframe {
     margin-top: 20px;
     border-radius: 5%;
 }
-
 .order-button > a:hover{
     border: 2px solid rgba(212, 133, 14);
     color:rgba(212, 133, 14);
 }
-
 .over-text a:hover{
     border: 2px solid #f9f5f3;
     color:#f9f5f3;
 }
-
 /*Order Online form section*/
 .form-outter{
     height: 800px;
@@ -390,7 +341,6 @@ iframe {
     background-size: cover;
     background-color: #81a094;
 }
-
 .signup-form{
     color: #f9f5f3;
     background-color: rgba(38, 49, 44, 0.8);
@@ -399,18 +349,15 @@ iframe {
     position: absolute;
     padding: 50px;
     border-radius: 5%;
-
     top: 100px;
     right: 300px;
     bottom: 150px;
 }
-
 .signup-form h3{
     color:#f9f5f3;
     line-height: 30px;
     margin-bottom: 20px;
 }
-
 .input-field{
     background: transparent;
     color: #f9f5f3;
@@ -424,7 +371,6 @@ iframe {
     letter-spacing: 2px;
     line-height: 30px;
 }
-
 #submit-button{
     text-align: center;
     padding: 10px 25px 10px 25px;
@@ -434,19 +380,15 @@ iframe {
     color: rgba(212, 133, 14, 1);
     border-radius: 5%;
 }
-
 #submit-button:hover {
     background-color: #81a094;
     color: rgba(212, 133, 14, 1);
 }
-
 .input-field:hover{
     background-color: #f9f5f3;
     color:#26312c;
 }
-
 /*form submit page, confirmation of submit*/
-
 #form-confirm{
     background: url('../images/background-form1.jpg') no-repeat center center;
     background-size: cover;
@@ -455,11 +397,9 @@ iframe {
     height: 800px;
     width: 100%;
 }
-
 #form-confirm h1{
     float:right;
 }
-
 #confirm-box{
     color: #f9f5f3;
     background-color: rgba(38, 49, 44, 0.8);
@@ -468,23 +408,14 @@ iframe {
     position: absolute;
     padding: 50px;
     border-radius: 5%;
-
     top: 250px;
     float: right;
     margin-left: 900px;
 }
-
 #confirm-box h2, #confirm-box h3{
     text-align: center;
     color:#f9f5f3;
     padding: 30px;
-}
-
-/*for larger to medium size from 1200px wide and down*/
-@media screen and (max-width: 1500px) {
-    .signup-form{
-        margin-left: 800px;
-    }
 }
 @media screen and (max-width: 1200px) {
     #about-farm, #boxes{
@@ -493,14 +424,12 @@ iframe {
         margin: 0 auto;
         padding: 30px 0;
     }
-    
     #right-about-farm, #left-about-farm, #left-large-box, #right-small-box{
         width: 100%;
         padding: 0;
         margin: 0 auto;
         font-size: 70%;
     }
-
     #centre-about-farm, #centre-medium-box {
         clear: both;
         width:100%;
@@ -508,8 +437,7 @@ iframe {
         margin: 0 auto;
         font-size: 70%;
         margin: 30px 0;
-    }
-    
+    }   
     #menu{
         clear:left;
         float:right;
@@ -518,11 +446,9 @@ iframe {
         line-height: 5px;
         vertical-align: top;
     }
-
     #name{
         vertical-align: top;
     }
-
     header{
         height: 180px;
     }
@@ -540,7 +466,6 @@ iframe {
         margin: 0 auto;
     }
 }
-
 @media screen and (max-width: 950px) {
     #name{
         font-size: 120%;
@@ -550,8 +475,7 @@ iframe {
     }
     #menu li{
         margin-right: 15px;
-    }
-    
+    }   
     #logo {
         height: 75px;
         width: 80px;
@@ -562,17 +486,14 @@ iframe {
         border-width: 3px;
         border-radius: 50%;
     }
-
     #opening-times {
         margin: 0 auto;
         height: 900px;
-        width: 100%;
-  
+        width: 100%; 
     }
     iframe{
         margin: 0 auto;
-    }
-    
+    } 
     #social-media-links li{
         margin-right: 50px;
     }
@@ -592,21 +513,12 @@ iframe {
     .over-text > h2 {
         font-size: 160%;
         padding-bottom: 15px;
-    }
-    
+    }    
     .over-text > h3{
         text-align: center;
         line-height: 30px;
         font-weight: 900;
         font-size: 130%;
-    }
-    
-    .sign-up-form {
-        max-width: 350px;
-    }
-
-    .signup-form{
-        right: 50px;
     }
 }
 @media screen and (max-width: 600px){
@@ -618,19 +530,16 @@ iframe {
     .over-text > h2 {
         font-size: 130%;
         padding-bottom: 15px;
-    }
-    
+    }   
     .over-text > h3{
         text-align: center;
         line-height: 30px;
         font-weight: 900;
         font-size: 120%;
     }
-
     #menu, #name{
         line-height: 30px;
     }
-
     /*contact details on footer*/
     #contact-details {
         float: left;
@@ -639,7 +548,6 @@ iframe {
         letter-spacing: 2px;
         font-size: 80%;
     }
-
     /* links on footer*/
     #social-media-links li{
         float:right;
@@ -649,13 +557,53 @@ iframe {
         color:#26312c;
         font-size: 80%;
     }
+    .form-outter{
+        height: 800px;
+        width: 100%;
+        position: relative;
+    }
+    #form-background{
+        height: 800px;
+        width: 100%;
+        background: url('../images/background-form1.jpg') no-repeat center center;
+        background-size: cover;
+        background-color: #81a094;
+    }
+    .signup-form{
+        color: #f9f5f3;
+        background-color: rgba(38, 49, 44, 0.8);
+        background-size: cover;
+        height: 600px;
+        margin: 0 auto;
+        border-radius: 5%;
+        top: 100px;
+        right: 0px;
+        bottom: 150px;
+    }
+    .signup-form h3{
+        color:#f9f5f3;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .input-field{
+        background: transparent;
+        color: #f9f5f3;
+        width: 100%;
+        height: 30px;
+        margin: 10px 0 20px 0;
+        border: 1px solid #f9f5f3;
+        border-radius: 3px;
+    }
+    #submit-button{
+        margin: 0 auto;
+    }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 380px) {
     #name{
-        font-size: 100%;
+        font-size: 80%;
     }
     #menu{
-        font-size: 50%;
+        font-size: 60%;
         float: left;
     }
     #about-farm h2 {
@@ -669,11 +617,41 @@ iframe {
         list-style-type: none;
         font-size: 150%;
     }
-
+    .form-outter{
+        height: 800px;
+        width: 100%;
+        position: relative;
+    }
+    #form-background{
+        height: 1000px;
+        width: 100%;
+        background: url('../images/background-form1.jpg') no-repeat center center;
+        background-size: cover;
+        background-color: #81a094;
+    }
+    .signup-form{
+        color: #f9f5f3;
+        background-color: rgba(38, 49, 44, 0.8);
+        max-width: 100%;
+        height: 700px;
+        padding: 50px;
+        border-radius: 5%;
+    }
     footer{
         height: 200px;
         background-color: #81a094;
         float: left;
         width:100%;
+    }
+    /*contact details on footer*/
+    #contact-details {
+        font-size: 80%;
+    }
+    /* links on footer*/
+    #social-media-links li{
+        float: left;
+        vertical-align: bottom;
+        color:#26312c;
+        font-size: 70%;
     }
 }
