@@ -29,7 +29,18 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
  I used [Coolors](https://coolors.co) to help me pick the colours I was looking for and to get the values for them. I wanted to keep it earthy and based the colour system around the colour of a carrot.  I used a light green in the header and footer and any boxes. The headings and text is a very dark green. The the transparent boxes and hover activity is an orange colour. Behind the boxes I have used an off white colour, as I felt white was not warm enough for the site.
 
-#81a094, #f9f5f3, #26312c,
+## Header
+
+### Navigation
+* Featured at the top of the page to  the left shows the farm name, which links to the home page.
+* On the right hand side there are further links: Home, Our Farm & Shop, Order Online.
+* The navigation is using a font that is soft amd rounded with a colour that contrasts well with the background.
+
+### Logo
+* Featured on the left hand corner of the page is a logo I created myself using [Canva](https://canva.com).
+
+
+
 
 # Testing
 

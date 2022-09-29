@@ -170,11 +170,12 @@ footer{
 #contact-details {
     float: left;
     padding: 25px 0 10px 25px;
-    color: #f9f5f3;
+    color: black;
     letter-spacing: 2px;
 }
 #contact-details li{
     list-style-type: none;
+    font-weight: 900;
 }
 #social-media-links li{
     float: right;
@@ -190,7 +191,7 @@ footer{
 }
 /* Farm and shop section*/
 #shop-info{
-    height: 600px;
+    height: 1200px;
     width: 100%;
     position: relative;
 }
@@ -202,14 +203,14 @@ footer{
     background-color: #81a094;
 }
 #opening-times{
-    margin: 30px 175px;
+    margin: 030px auto;
     height: 600px;
     width: 500px;
-    float: left;
     background-color: #81a094;
     text-align: center;
     border-radius: 5%;
     padding : 15px;
+    box-shadow: 10px 10px 8px #26312c;
 }
 #opening-times h3{
     font-size: 200%;
@@ -231,8 +232,8 @@ footer{
     color:#f9f5f3;
 }
 iframe {
-    margin: 30px 175px;
-    float: right;
+    width: 100%;
+    height: 400px;
 }
 /* box options on boxes.html page */
 #boxes {
@@ -397,8 +398,9 @@ iframe {
     height: 800px;
     width: 100%;
 }
-#form-confirm h1{
-    float:right;
+#form-confirm h2{
+    float: right;
+    line-height: 60px;
 }
 #confirm-box{
     color: #f9f5f3;
@@ -408,14 +410,14 @@ iframe {
     position: absolute;
     padding: 50px;
     border-radius: 5%;
-    top: 250px;
+    top: 400px;
     float: right;
     margin-left: 900px;
 }
 #confirm-box h2, #confirm-box h3{
     text-align: center;
     color:#f9f5f3;
-    padding: 30px;
+    padding: 20px;
 }
 @media screen and (max-width: 1200px) {
     #about-farm, #boxes{
@@ -461,9 +463,14 @@ iframe {
         height: 600px;
         width: 500px;
     }
-    iframe{
-        width: 80%;
-        margin: 0 auto;
+    #confirm-box{
+        max-width: 50%;
+        height: 250px;
+        padding: 50px;
+        border-radius: 5%;
+        top: 400px;
+        float: right;
+        margin-left: 150px;
     }
 }
 @media screen and (max-width: 950px) {
@@ -488,12 +495,9 @@ iframe {
     }
     #opening-times {
         margin: 0 auto;
-        height: 900px;
-        width: 100%; 
+        height: 750px;
+        width: 80%; 
     }
-    iframe{
-        margin: 0 auto;
-    } 
     #social-media-links li{
         margin-right: 50px;
     }
@@ -508,7 +512,7 @@ iframe {
     .over-text{
         width: 40%;
         left: 50px;
-        height: 50%;
+        height: 40%;
     }
     .over-text > h2 {
         font-size: 160%;
@@ -525,7 +529,6 @@ iframe {
     .over-text{
         width: 50%;
         left: 50px;
-        height: 50%;
     }
     .over-text > h2 {
         font-size: 130%;
@@ -539,6 +542,10 @@ iframe {
     }
     #menu, #name{
         line-height: 30px;
+    }
+    #opening-times{
+        height: 750px;
+        width: 90%
     }
     /*contact details on footer*/
     #contact-details {
@@ -597,6 +604,12 @@ iframe {
     #submit-button{
         margin: 0 auto;
     }
+    #confirm-box{
+        max-width: 80%;
+        top: 400px;
+        float: right;
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 380px) {
     #name{
@@ -613,6 +626,10 @@ iframe {
     #about-farm p{
         font-size: 150%;
     }
+    #opening-times{
+        height: 750px;
+        width: 90%
+    }
     .box-item-list {
         list-style-type: none;
         font-size: 150%;
@@ -623,19 +640,15 @@ iframe {
         position: relative;
     }
     #form-background{
-        height: 1000px;
+        height: 800px;
         width: 100%;
         background: url('../images/background-form1.jpg') no-repeat center center;
         background-size: cover;
         background-color: #81a094;
     }
     .signup-form{
-        color: #f9f5f3;
-        background-color: rgba(38, 49, 44, 0.8);
         max-width: 100%;
-        height: 700px;
-        padding: 50px;
-        border-radius: 5%;
+        height: 600px;
     }
     footer{
         height: 200px;
@@ -648,10 +661,12 @@ iframe {
         font-size: 80%;
     }
     /* links on footer*/
-    #social-media-links li{
+    #social-links li{
+        clear: right;
         float: left;
         vertical-align: bottom;
         color:#26312c;
         font-size: 70%;
+        line-height: 0;
     }
 }
