@@ -431,15 +431,20 @@ iframe {
         width: 100%;
         padding: 0;
         margin: 0 auto;
-        font-size: 70%;
+        font-size: 80%;
     }
     #centre-about-farm, #centre-medium-box {
         clear: both;
         width:100%;
-        padding: 0;
+        padding: 0px;
         margin: 0 auto;
-        font-size: 70%;
+        font-size: 80%;
+
     }   
+    .boxes-images, .about-images{
+        width: 70%;
+        margin: 0 auto;
+    }
     #menu{
         clear:left;
         float:right;
@@ -544,6 +549,10 @@ iframe {
     #opening-times{
         height: 750px;
         width: 90%
+    }
+    .boxes-images, .about-images{
+        width: 90%;
+        margin: 0 auto;
     }
     /*contact details on footer*/
     #contact-details {

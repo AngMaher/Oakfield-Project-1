@@ -91,9 +91,11 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 * This site was deployed using GitHub pages.
     * Here is a live link: [Oakfield Eco Farm]()
 
+# Didnt get done
+* There are no bugs in the project.
+* I would have liked to have a dropdown menu for the smallest mobile screen sizes, but felt it is beyond the scope of what I have learnt so far in the course.
 
-# Credits
-
+# Credit
 * I used Balsamiq to create the wireframes, google.fonts to select font styles, font awsome for icon.
 * Used loving running project and the coffee shop program for inspiration and examples, and applied to my own project using my own style.
 * I looked at the section for the hero image with the box on top and amended it for my project.
