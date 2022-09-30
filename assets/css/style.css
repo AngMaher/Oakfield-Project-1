@@ -491,7 +491,6 @@ iframe {
         padding: 0;
         margin: 0;
         border: 2px solid #26312c;
-        border-width: 3px;
         border-radius: 50%;
     }
     #opening-times {
@@ -624,9 +623,6 @@ iframe {
     #form-background{
         height: 800px;
         width: 100%;
-        background: url('../images/background-form1.jpg') no-repeat center center;
-        background-size: cover;
-        background-color: #81a094;
     }
     .signup-form{
         max-width: 100%;
@@ -634,8 +630,6 @@ iframe {
     }
     footer{
         height: 200px;
-        background-color: #81a094;
-        float: left;
         width:100%;
     }
     /*contact details on footer*/
