@@ -72,6 +72,12 @@ header {
     line-height: 30px;
     font-weight: 900;
     font-size: 150%;
+    text-decoration: none;
+    color: #26312c;
+}
+.over-text a{
+    font-size: 180%;
+    text-decoration: none;
 }
 /*Navagation */
 #menu {
@@ -328,6 +334,7 @@ iframe {
 .over-text a:hover{
     border: 2px solid #f9f5f3;
     color:#f9f5f3;
+    text-decoration: none;
 }
 /*Order Online form section*/
 .form-outter{
