@@ -89,7 +89,7 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 # Deployment
 * This site was deployed using GitHub pages.
-    * Here is a live link: [Oakfield Eco Farm]()
+    * Here is a live link: [Oakfield Eco Farm](https://angmaher.github.io/Oakfield-Project-1/)
 
 # Didnt get done
 * There are no bugs in the project.
