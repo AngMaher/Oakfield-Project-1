@@ -39,8 +39,15 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 ### Logo
 * Featured on the left hand corner of the page is a logo I created myself using [Canva](https://canva.com).
 
+![This is an image](assets/README%20IMAGES/header.png)
 
+## Hero Section
+* There is a hero image throughout the whole site and each paghe has a different image.
+* On this section there is a transparent bos with information, in a contrasting colour of orange.
 
+![This is an image](assets/README%20IMAGES/heroimage.png)
+
+## About the Farm 
 
 # Testing
 
