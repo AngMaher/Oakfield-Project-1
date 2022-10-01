@@ -305,7 +305,7 @@ iframe {
 }
 .boxes-images {
     width: 90%;
-    height: 300px;
+    height: 280px;
     margin: 30px;
     border-radius: 5%;
 }
@@ -322,7 +322,7 @@ iframe {
     text-align: center;
     color:#26312c;
     padding: 10px;
-    font-size: 200%;
+    font-size: 180%;
     text-decoration: none;
     line-height: 60px;
     border: 2px solid  #26312c;
