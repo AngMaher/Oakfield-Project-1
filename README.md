@@ -3,9 +3,9 @@
 # Oakfield Eco Farm
 
 This website is inspired by a local Eco Farm in my area that does not have their own website. I love what they do and I thought it 
-would be fitting to base my idea around them.
+would be fitting to base my idea around them. The Farm is located beside a B&B with an historical wall garden and private allotments, so it gives great scope to extend the site in the future.
 
-The site shows thewhat the farm is about, information about the opening times of the on site shop, and lets the customer sign up for deliveries of organic vegetables delivered to their door.
+The site shows what the farm is about, information about the opening times of the on site shop, and lets the customer sign up for deliveries of organic vegetables delivered to their door.
 
 ![Am I responsive](assets/readme-images/amiresponsive.png)
 ### Here is a live link: [Oakfield Eco Farm](https://angmaher.github.io/Oakfield-Project-1/)
@@ -30,11 +30,11 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 ## Header
 
-* In the header I have a logo for thw farm. I used [Canva](https://canva.com) to create the logo and I think brings a great addition to the page.
+* In the header I have a logo for the farm. I used [Canva](https://canva.com) to create the logo and I think brings a great addition to the page.
 * There is the name of the farm also in the header and it is also a link to the home page, so no matter where you are on the site the name will bring you home.
 
 ### Navigation
-* Featured at the top of the page to  the left shows the farm name, which links to the home page.
+* Featured at the top of the page to the left shows the farm name, which links to the home page.
 * On the right hand side there are further links: Home, Our Farm & Shop, Order Online.
 * The navigation is using a font that is soft amd rounded with a colour that contrasts well with the background.
 
@@ -45,7 +45,7 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 ## Hero Section
 * There is a hero image throughout the whole site and each page has a different image.
-* On this section there is a transparent bos with information, in a contrasting colour of orange.
+* On this section there is a transparent box with information, in a contrasting colour of orange.
 
 ![This is an image](assets/readme-images/heroimage.png)
 
