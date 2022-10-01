@@ -446,12 +446,20 @@ iframe {
         clear: both;
         width:100%;
         padding: 15px;
-        margin: 0 auto;
+        margin: 15PX auto;
         font-size: 80%;
     }   
     .boxes-images, .about-images{
         width: 60%;
         margin: 15px auto;
+    }
+    #right-about-farm img, #left-about-farm img, #left-large-box img, #right-small-box img{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    #centre-about-farm img, #centre-medium-box img{
+        margin: 0 auto;
+        margin-top: 15px;
     }
     #menu{
         clear:left;
