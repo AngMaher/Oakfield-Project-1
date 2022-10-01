@@ -678,9 +678,11 @@ iframe {
         line-height: 0;
     }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 260px) {
     #name{
         font-size: 70%;
     }
-
+#opening-times h3{
+    line-height:60px;
+}
 }
