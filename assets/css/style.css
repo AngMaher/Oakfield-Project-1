@@ -446,7 +446,6 @@ iframe {
         padding: 0px;
         margin: 0 auto;
         font-size: 80%;
-
     }   
     .boxes-images, .about-images{
         width: 70%;
@@ -521,6 +520,14 @@ iframe {
         margin: 0 auto;
         margin-top: 15px;
     }
+    #right-about-farm, #left-about-farm, #left-large-box, #right-small-box{
+        height: 750px;
+        margin-top: 15px;
+    }
+    #centre-about-farm, #centre-medium-box {
+        height: 750px;
+        margin: 15px 0;
+    } 
     .over-text{
         width: 40%;
         left: 50px;
@@ -556,10 +563,6 @@ iframe {
     #opening-times{
         height: 750px;
         width: 90%
-    }
-    .boxes-images, .about-images{
-        width: 90%;
-        margin: 0 auto;
     }
     /*contact details on footer*/
     #contact-details {
@@ -616,12 +619,21 @@ iframe {
         font-size: 60%;
         float: left;
     }
+    .over-text{
+        bottom: 150px;
+        height: 60%;
+        margin: 0 auto;
+    }
     #about-farm h2 {
         font-size: 150%;
         padding-top: 30px;
     }
     #about-farm p{
         font-size: 150%;
+    }
+    .boxes-images, .about-images{
+        width: 90%;
+        margin: 0 auto;
     }
     #opening-times{
         height: 750px;
@@ -652,11 +664,15 @@ iframe {
     #contact-details {
         font-size: 80%;
     }
+    #social-links{
+        clear: both;
+    }
     /* links on footer*/
     #social-links li{
-        clear: right;
         float: left;
-        font-size: 70%;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 90%;
         line-height: 0;
     }
 }
