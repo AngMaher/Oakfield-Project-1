@@ -101,7 +101,8 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
 
 # Credit
 * I used Balsamiq to create the wireframes, google.fonts to select font styles, font awsome for icon.
-* Used the loving running project and the coffee shop program for inspiration and examples, and applied to my own project using my own style. In particular I looked at the hero section and how to line up three div sections side by side. Mostly I went over my notes and relooked at many videos from the course.
+* Used the loving running project and the coffee shop program for inspiration and examples, and applied to my own project using my own style. In particular I looked at the hero section and how to line up three div sections side by side. Mostly I went over my notes and relooked at many videos from the course. 
 * I used canva.com to create a logo for the wesite.
 * I used pexels for photographs and a local farm in my area for pictures of the shop and about the farm section.
-* I created the logo using canva.com
+* I created the logo using canva.com.
+* My mentor Jubril gave me great advise which I followed all except the dropdown menu. 

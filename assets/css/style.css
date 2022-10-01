@@ -638,7 +638,8 @@ iframe {
     }
     #opening-times{
         height: 750px;
-        width: 90%
+        width: 90%;
+        font-size: 70%;
     }
     .box-item-list {
         list-style-type: none;
