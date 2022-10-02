@@ -95,7 +95,7 @@ This site was built using HTML CSS [GitHub Pages](https://pages.github.com/)
     * Here is a live link: [Oakfield Eco Farm](https://angmaher.github.io/Oakfield-Project-1/)
 
 # Didnt get done
-* There are no bugs in the project.
+* There was on bug when testing, some images did not show on older safari versions. This was due to .webp not been recognised. I decided for the purpose of this project to keep the images as is, if it was for other purposes I would have changed all images to .jpg
 * I would have liked to have a dropdown menu for the smallest mobile screen sizes, but felt it is beyond the scope of what I have learnt so far in the course.
 * In future the site can expand to include an online shop
 
